@@ -1,0 +1,30 @@
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: Mac Pro
+      Model Identifier: MacPro3,1
+      Processor Name: Quad-Core Intel Xeon
+      Processor Speed: 2.40 GHz
+      Number of Processors: 1
+      Total Number of Cores: 4
+      L2 Cache: 8 MB
+      Memory: 4 GB
+      Bus Speed: 1.07 GHz
+      Boot ROM Version: MultiBeast.tonymacx86.com
+      SMC Version (system): 1.30f3
+      Serial Number (system): G8828B315J4
+      Hardware UUID: 0EAE0A15-1DF5-5F12-BD7A-0624F32E11F3
+
+Software:
+
+    System Software Overview:
+
+      System Version: OS X 10.8.4 (12E55)
+      Kernel Version: Darwin 12.4.0
+      Boot Volume: 250gb
+      Boot Mode: Normal
+      Computer Name: xfel’s Mac Pro
+      User Name: xfel (xfel)
+      Secure Virtual Memory: Enabled
+      Time since boot: 7:44

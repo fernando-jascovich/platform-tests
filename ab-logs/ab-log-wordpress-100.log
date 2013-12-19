@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking beta.sal.pr (be patient).....done
+
+
+Server Software:        Apache/2.2.25
+Server Hostname:        beta.sal.pr
+Server Port:            80
+
+Document Path:          /api/restaurants/listall/?limit=100
+Document Length:        214020 bytes
+
+Concurrency Level:      1
+Time taken for tests:   72.878 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Total transferred:      2145450 bytes
+HTML transferred:       2140200 bytes
+Requests per second:    0.14 [#/sec] (mean)
+Time per request:       7287.815 [ms] (mean)
+Time per request:       7287.815 [ms] (mean, across all concurrent requests)
+Transfer rate:          28.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      190  270  35.2    271     326
+Processing:  5683 7018 896.5   7330    8097
+Waiting:     3252 3477 304.0   3354    4281
+Total:       5951 7288 891.1   7619    8365
+
+Percentage of the requests served within a certain time (ms)
+  50%   7619
+  66%   7981
+  75%   8070
+  80%   8196
+  90%   8365
+  95%   8365
+  98%   8365
+  99%   8365
+ 100%   8365 (longest request)

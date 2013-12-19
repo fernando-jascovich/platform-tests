@@ -1,0 +1,25 @@
+2013-12-19 12:45:18,190 - listallapp.listall - INFO - 10
+2013-12-19 12:45:18,190 - listallapp.listall - INFO - None
+2013-12-19 12:45:18,287 - listallapp.listall - ERROR - 'OrderedDict' object has no attribute 'strip'
+2013-12-19 12:45:54,177 - listallapp.listall - INFO - 10
+2013-12-19 12:45:54,178 - listallapp.listall - INFO - None
+2013-12-19 12:45:54,191 - listallapp.listall - ERROR - 0
+2013-12-19 12:46:07,466 - listallapp.listall - INFO - 10
+2013-12-19 12:46:07,466 - listallapp.listall - INFO - None
+2013-12-19 12:46:07,474 - listallapp.listall - ERROR - 0
+2013-12-19 12:49:02,035 - listallapp.listall - ERROR - 0
+2013-12-19 12:51:42,242 - listallapp.listall - ERROR - 0
+2013-12-19 12:52:06,650 - listallapp.listall - ERROR - 0
+2013-12-19 12:52:36,562 - listallapp.listall - ERROR - 0
+2013-12-19 12:52:43,265 - listallapp.listall - ERROR - 0
+2013-12-19 12:53:04,586 - listallapp.listall - ERROR - list index out of range
+2013-12-19 12:53:22,063 - listallapp.listall - ERROR - list index out of range
+2013-12-19 12:53:43,961 - listallapp.listall - ERROR - unexpected opcode
+2013-12-19 12:54:00,465 - listallapp.listall - ERROR - object in serialization dump but object_hook not given.
+2013-12-19 12:54:29,082 - listallapp.listall - ERROR - list indices must be integers, not str
+2013-12-19 13:52:23,380 - listallapp.listall - ERROR - [Errno 1] Unknown host
+2013-12-19 13:54:27,087 - listallapp.listall - ERROR - [Errno 1] Unknown host
+2013-12-19 14:03:08,005 - listallapp.listall - INFO - http://localhost:8000/listall?limit=10
+2013-12-19 14:10:45,747 - listallapp.listall - ERROR - unsupported operand type(s) for &: 'str' and 'int'
+2013-12-19 14:13:21,746 - listallapp.listall - ERROR - unsupported operand type(s) for &: 'str' and 'int'
+2013-12-19 14:13:43,562 - listallapp.listall - ERROR - unsupported operand type(s) for &: 'str' and 'int'

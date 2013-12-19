@@ -1,0 +1,4 @@
+
+ssh -i ~/Desktop/sal.pr-web-stuff/log-info/salpr-keypair.pem ec2-user@ec2-23-21-247-152.compute-1.amazonaws.com
+
+rsync -ncrv -e "ssh -i /Users/xfel/Desktop/sal.pr-web-stuff/log-info/salpr-keypair.pem" --progress --delete ~/workspace/test-nodejs/sal-nodejs-beta/ ec2-user@ec2-23-21-247-152.compute-1.amazonaws.com:/var/www/test-nodejs/
