@@ -1,21 +1,24 @@
- ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=1 > ab-log-wordpress-1.log
- ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=10 > ab-log-wordpress-10.log
- ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=100 > ab-log-wordpress-100.log
- ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=500 > ab-log-wordpress-500.log
+ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=1 > ab-log-wordpress-1.log
+ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=10 > ab-log-wordpress-10.log
+ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=100 > ab-log-wordpress-100.log
+ab -n 10 -c 1 http://beta.sal.pr/api/restaurants/listall/?limit=500 > ab-log-wordpress-500.log
 
- ab -n 10 -c 1 http://localhost:3000/listall/?limit=1 > ab-log-nodejs-1.log
- ab -n 10 -c 1 http://localhost:3000/listall/?limit=10 > ab-log-nodejs-10.log
- ab -n 10 -c 1 http://localhost:3000/listall/?limit=100 > ab-log-nodejs-100.log
- ab -n 10 -c 1 http://localhost:3000/listall/?limit=500 > ab-log-nodejs-500.log
+ab -n 10 -c 1 http://127.0.0.1:3000/listall/?limit=1 > ab-log-nodejs-1.log
+ab -n 10 -c 1 http://127.0.0.1:3000/listall/?limit=10 > ab-log-nodejs-10.log
+ab -n 10 -c 1 http://127.0.0.1:3000/listall/?limit=100 > ab-log-nodejs-100.log
+ab -n 10 -c 1 http://127.0.0.1:3000/listall/?limit=500 > ab-log-nodejs-500.log
 
 
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=1 > ab-log-falcon-1.log
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=10 > ab-log-falcon-10.log
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=100 > ab-log-falcon-100.log
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=500 > ab-log-falcon-500.log
- 
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=1 > ab-log-falcon-1.log
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=10 > ab-log-falcon-10.log
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=100 > ab-log-falcon-100.log
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=500 > ab-log-falcon-500.log
 
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=1 > ab-log-django-1.log
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=10 > ab-log-django-10.log
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=100 > ab-log-django-100.log
- ab -n 10 -c 1 http://localhost:8000/listall/?limit=500 > ab-log-django-500.log
+
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=1 > ab-log-django-1.log
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=10 > ab-log-django-10.log
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=100 > ab-log-django-100.log
+ab -n 10 -c 1 http://127.0.0.1:8000/listall/?limit=500 > ab-log-django-500.log
+
+
+while [ 1 ]; do ps -o %cpu="" -o %mem="" -o command="" -p 429 >> usage-node-mysqld.log; sleep 0.5; done
