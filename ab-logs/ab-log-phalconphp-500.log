@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /platform-tests/test-phalconphp/listall/?limit=500
+Document Length:        0 bytes
+
+Concurrency Level:      1
+Time taken for tests:   106.910 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Total transferred:      2410 bytes
+HTML transferred:       0 bytes
+Requests per second:    0.09 [#/sec] (mean)
+Time per request:       10690.986 [ms] (mean)
+Time per request:       10690.986 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:  9167 10691 1659.5  10661   13243
+Waiting:     9167 10691 1659.4  10661   13243
+Total:       9167 10691 1659.5  10661   13243
+
+Percentage of the requests served within a certain time (ms)
+  50%  10661
+  66%  10914
+  75%  12609
+  80%  12918
+  90%  13243
+  95%  13243
+  98%  13243
+  99%  13243
+ 100%  13243 (longest request)
