@@ -25,4 +25,4 @@ ab -n 10 -c 1 http://localhost/platform-tests/test-phalconphp/listall/?limit=10 
 ab -n 10 -c 1 http://localhost/platform-tests/test-phalconphp/listall/?limit=100 > ab-log-phalconphp-100.log
 ab -n 10 -c 1 http://localhost/platform-tests/test-phalconphp/listall/?limit=500 > ab-log-phalconphp-500.log
 
-while [ 1 ]; do ps -o %cpu="" -o %mem="" -o command="" -p 429 >> usage-node-mysqld.log; sleep 0.5; done
+while [ 1 ]; do ps -o %cpu="" -o %mem="" -o command="" -p 1719 -p 1720 -p 1722 >> usage-phalconphp.log; sleep 0.5; done
